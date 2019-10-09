@@ -16,6 +16,7 @@
 		C27DBC16234D70A5003F6F35 /* SwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DBC15234D70A5003F6F35 /* SwiftUIDemoTests.swift */; };
 		C27DBC21234D70A5003F6F35 /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DBC20234D70A5003F6F35 /* SwiftUIDemoUITests.swift */; };
 		C27DBC2F234D8429003F6F35 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DBC2E234D8429003F6F35 /* CircleImage.swift */; };
+		C27DBC31234D89A0003F6F35 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DBC30234D89A0003F6F35 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C27DBC20234D70A5003F6F35 /* SwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITests.swift; sourceTree = "<group>"; };
 		C27DBC22234D70A5003F6F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C27DBC2E234D8429003F6F35 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		C27DBC30234D89A0003F6F35 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				C27DBC00234D70A0003F6F35 /* SceneDelegate.swift */,
 				C27DBC02234D70A0003F6F35 /* ContentView.swift */,
 				C27DBC2E234D8429003F6F35 /* CircleImage.swift */,
+				C27DBC30234D89A0003F6F35 /* MapView.swift */,
 				C27DBC04234D70A4003F6F35 /* Assets.xcassets */,
 				C27DBC09234D70A4003F6F35 /* LaunchScreen.storyboard */,
 				C27DBC0C234D70A4003F6F35 /* Info.plist */,
@@ -274,6 +277,7 @@
 				C27DBC2F234D8429003F6F35 /* CircleImage.swift in Sources */,
 				C27DBC01234D70A0003F6F35 /* SceneDelegate.swift in Sources */,
 				C27DBC03234D70A0003F6F35 /* ContentView.swift in Sources */,
+				C27DBC31234D89A0003F6F35 /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
