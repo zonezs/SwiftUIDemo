@@ -6,3 +6,5 @@ For study SwiftUI
 ##### List
 
 ##### View
+
+##### Pre_view()
