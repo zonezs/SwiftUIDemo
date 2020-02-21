@@ -8,3 +8,8 @@ For study SwiftUI
 ##### View
 
 ##### Pre_view()
+
+##### Text
+
+##### Image
+
