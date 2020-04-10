@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C21376E024405E70008FD0DD /* ZSText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21376DF24405E70008FD0DD /* ZSText.swift */; };
+		C21376E2244063BD008FD0DD /* ZSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21376E1244063BD008FD0DD /* ZSButton.swift */; };
 		C27DBBFF234D70A0003F6F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DBBFE234D70A0003F6F35 /* AppDelegate.swift */; };
 		C27DBC01234D70A0003F6F35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DBC00234D70A0003F6F35 /* SceneDelegate.swift */; };
 		C27DBC03234D70A0003F6F35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DBC02234D70A0003F6F35 /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		C21376DF24405E70008FD0DD /* ZSText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSText.swift; sourceTree = "<group>"; };
+		C21376E1244063BD008FD0DD /* ZSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSButton.swift; sourceTree = "<group>"; };
 		C27DBBFB234D70A0003F6F35 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27DBBFE234D70A0003F6F35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C27DBC00234D70A0003F6F35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				C21376DF24405E70008FD0DD /* ZSText.swift */,
+				C21376E1244063BD008FD0DD /* ZSButton.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				C27DBC01234D70A0003F6F35 /* SceneDelegate.swift in Sources */,
 				C21376E024405E70008FD0DD /* ZSText.swift in Sources */,
 				C27DBC03234D70A0003F6F35 /* ContentView.swift in Sources */,
+				C21376E2244063BD008FD0DD /* ZSButton.swift in Sources */,
 				C27DBC31234D89A0003F6F35 /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
