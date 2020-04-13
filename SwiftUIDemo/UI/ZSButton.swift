@@ -15,7 +15,12 @@ struct ZSButton: View {
             //
             print("点击了一下")
         }) {
-            Text(verbatim: "Hello Button!")
+            Text("Swift Button")
+                .lineLimit(100)
+                .font(.system(size: 36))
+                .foregroundColor(Color.white)
+                .background(Color.green)
+                .padding(20)
         }
     }
 }

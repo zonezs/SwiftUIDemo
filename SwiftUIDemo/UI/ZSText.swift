@@ -10,11 +10,11 @@ import SwiftUI
 
 struct ZSText: View {
     var body: some View {
-        Text("Swift UITest")
+        Text("Swift UITest Products")
             .bold()
             .italic()
             .lineLimit(100)
-            .font(.system(size: 50))
+            .font(.system(size: 36))
             .padding(20)
             .foregroundColor(Color.white)
             .background(Color.green)
@@ -36,11 +36,22 @@ struct ZSText_Previews: PreviewProvider {
         HStack.init(alignment: .top, spacing: 10) {
             
             VStack.init(alignment: .leading, spacing: 10) {
+                
                 Spacer()
                 ZSText()
-//                Divider()
-                ZSText()
+                
                 Spacer()
+                ZSText()
+                
+                Spacer()
+                ZSText()
+                
+                Spacer()
+                ZSText()
+                
+                Spacer()
+                
+                ZSButton()
             }
         }
     }
