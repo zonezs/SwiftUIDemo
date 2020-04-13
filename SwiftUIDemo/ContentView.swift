@@ -38,6 +38,11 @@ struct ContentView: View {
             .padding()
             
             Spacer()
+            
+            // 暂定
+            ZSButton()
+            Spacer()
+            ZSButton()
         }
     }
 }
