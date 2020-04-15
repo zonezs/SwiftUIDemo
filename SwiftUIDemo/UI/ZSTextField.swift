@@ -35,7 +35,7 @@ struct ZSTextField: View {
                 
                 Spacer()
                 Text("你的昵称名是 \(nickname)").padding()
-                TextField.init("请输入昵称名字", text: $username, onEditingChanged: {
+                TextField.init("请输入昵称名字", text: $nickname, onEditingChanged: {
                     (value) in
                    
                 }) {
@@ -48,8 +48,11 @@ struct ZSTextField: View {
     }
 }
 
+
+#if DEBUG
 struct ZSTextField_Previews: PreviewProvider {
     static var previews: some View {
-        ZSTextField(username: "", nickname: "")
+        ZSTextField(username: "user", nickname: "nick")
     }
 }
+#endif
