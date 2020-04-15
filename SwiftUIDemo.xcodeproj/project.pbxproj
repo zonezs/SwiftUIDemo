@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C21189D92446B29500821721 /* ZSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21189D82446B29500821721 /* ZSTextField.swift */; };
 		C21376E024405E70008FD0DD /* ZSText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21376DF24405E70008FD0DD /* ZSText.swift */; };
 		C21376E2244063BD008FD0DD /* ZSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21376E1244063BD008FD0DD /* ZSButton.swift */; };
 		C27DBBFF234D70A0003F6F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DBBFE234D70A0003F6F35 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C21189D82446B29500821721 /* ZSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSTextField.swift; sourceTree = "<group>"; };
 		C21376DF24405E70008FD0DD /* ZSText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSText.swift; sourceTree = "<group>"; };
 		C21376E1244063BD008FD0DD /* ZSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSButton.swift; sourceTree = "<group>"; };
 		C27DBBFB234D70A0003F6F35 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,7 @@
 			children = (
 				C21376DF24405E70008FD0DD /* ZSText.swift */,
 				C21376E1244063BD008FD0DD /* ZSButton.swift */,
+				C21189D82446B29500821721 /* ZSTextField.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				C27DBBFF234D70A0003F6F35 /* AppDelegate.swift in Sources */,
 				C27DBC2F234D8429003F6F35 /* CircleImage.swift in Sources */,
+				C21189D92446B29500821721 /* ZSTextField.swift in Sources */,
 				C27DBC01234D70A0003F6F35 /* SceneDelegate.swift in Sources */,
 				C21376E024405E70008FD0DD /* ZSText.swift in Sources */,
 				C27DBC03234D70A0003F6F35 /* ContentView.swift in Sources */,
