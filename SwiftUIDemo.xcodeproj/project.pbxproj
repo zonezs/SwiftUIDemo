@@ -20,6 +20,7 @@
 		C27DBC21234D70A5003F6F35 /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DBC20234D70A5003F6F35 /* SwiftUIDemoUITests.swift */; };
 		C27DBC2F234D8429003F6F35 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DBC2E234D8429003F6F35 /* CircleImage.swift */; };
 		C27DBC31234D89A0003F6F35 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DBC30234D89A0003F6F35 /* MapView.swift */; };
+		C2D913DE244EDC3100F97F53 /* ZSList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D913DD244EDC3100F97F53 /* ZSList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		C27DBC22234D70A5003F6F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C27DBC2E234D8429003F6F35 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		C27DBC30234D89A0003F6F35 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C2D913DD244EDC3100F97F53 /* ZSList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				C21376DF24405E70008FD0DD /* ZSText.swift */,
 				C21376E1244063BD008FD0DD /* ZSButton.swift */,
 				C21189D82446B29500821721 /* ZSTextField.swift */,
+				C2D913DD244EDC3100F97F53 /* ZSList.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			files = (
 				C27DBBFF234D70A0003F6F35 /* AppDelegate.swift in Sources */,
 				C27DBC2F234D8429003F6F35 /* CircleImage.swift in Sources */,
+				C2D913DE244EDC3100F97F53 /* ZSList.swift in Sources */,
 				C21189D92446B29500821721 /* ZSTextField.swift in Sources */,
 				C27DBC01234D70A0003F6F35 /* SceneDelegate.swift in Sources */,
 				C21376E024405E70008FD0DD /* ZSText.swift in Sources */,

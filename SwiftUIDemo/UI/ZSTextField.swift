@@ -26,7 +26,9 @@ struct ZSTextField: View {
                     
                 }) {
                     
-                }.padding()
+                }
+                .padding()
+                .textFieldStyle(RoundedBorderTextFieldStyle())
             }
             
             Divider()
@@ -40,14 +42,15 @@ struct ZSTextField: View {
                    
                 }) {
                  
-                }.padding()
+                }
+                .padding()
+                .textFieldStyle(RoundedBorderTextFieldStyle())
             }
             
             Divider()
         }
     }
 }
-
 
 #if DEBUG
 struct ZSTextField_Previews: PreviewProvider {

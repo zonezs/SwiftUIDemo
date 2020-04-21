@@ -30,6 +30,7 @@ struct ZSText: View {
 //    }
 //}
 
+#if DEBUG
 struct ZSText_Previews: PreviewProvider {
     static var previews: some View {
         
@@ -56,3 +57,4 @@ struct ZSText_Previews: PreviewProvider {
         }
     }
 }
+#endif

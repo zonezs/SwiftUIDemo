@@ -37,20 +37,21 @@ struct ContentView: View {
             }
             .padding()
             
-            Spacer()
+//            Spacer()
             
             // 暂定
             ZSButton()
-            Spacer()
-            ZSButton()
+//            Spacer()
+//            ZSButton()
         }
     }
 }
 
-/// init
+#if DEBUG
 struct ContentView_Previews: PreviewProvider {
     
     static var previews: some View {
         ContentView()
     }
 }
+#endif

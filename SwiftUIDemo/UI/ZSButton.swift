@@ -20,13 +20,15 @@ struct ZSButton: View {
                 .font(.system(size: 36))
                 .foregroundColor(Color.white)
                 .background(Color.green)
-                .padding(20)
+                .padding()
         }
     }
 }
 
+#if DEBUG
 struct ZSButton_Previews: PreviewProvider {
     static var previews: some View {
         ZSButton()
     }
 }
+#endif
