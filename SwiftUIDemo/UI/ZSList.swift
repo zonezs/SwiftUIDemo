@@ -31,26 +31,26 @@ struct ZSList: View {
     }
 }
 
-extension View {
-    
-    /// 对 Image 的扩展 （默认图片居中显示）
-    /// - Parameters:
-    ///   - maxW: 宽
-    ///   - maxH: 高
-    func img_frame(maxW: CGFloat, maxH: CGFloat) -> some View {
-        
-        self.frame(minWidth: nil, idealWidth: nil, maxWidth: maxW,
-                   minHeight: nil, idealHeight: nil, maxHeight: maxH,
-                   alignment: .center)
-    }
-    
-//    public func img_frame(_ imgName: String, maxW: CGFloat, maxH: CGFloat) {
+//extension View {
 //
-//        Image(imgName)
-//            .frame(minWidth: nil, idealWidth: nil, maxWidth: maxW, minHeight: nil, idealHeight: nil, maxHeight: maxH, alignment: .center)
+//    /// 对 Image 的扩展 （默认图片居中显示）
+//    /// - Parameters:
+//    ///   - maxW: 宽
+//    ///   - maxH: 高
+//    func img_frame(maxW: CGFloat, maxH: CGFloat) -> some View {
+//
+//        self.frame(minWidth: nil, idealWidth: nil, maxWidth: maxW,
+//                   minHeight: nil, idealHeight: nil, maxHeight: maxH,
+//                   alignment: .center)
 //    }
-    
-}
+//
+////    public func img_frame(_ imgName: String, maxW: CGFloat, maxH: CGFloat) {
+////
+////        Image(imgName)
+////            .frame(minWidth: nil, idealWidth: nil, maxWidth: maxW, minHeight: nil, idealHeight: nil, maxHeight: maxH, alignment: .center)
+////    }
+//
+//}
 
 struct ZSList_Previews: PreviewProvider {
     static var previews: some View {
