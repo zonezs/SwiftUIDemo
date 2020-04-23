@@ -50,6 +50,9 @@ struct ContentView: View {
         
         NavigationView {
             ZSList()
+                .navigationBarTitle("SwiftUIDemo", displayMode: .inline)
+//                .navigationBarTitle("SwiftUIDemo", displayMode: .automatic)
+//                .navigationBarTitle("SwiftUIDemo", displayMode: .large)
         }
         
     }
