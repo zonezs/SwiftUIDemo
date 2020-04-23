@@ -12,38 +12,46 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack {
-            
-//            MapView()
-//                .edgesIgnoringSafeArea(.top)
-//                .frame(height: 300)
-            
-            CircleImage()
-                .offset(y: -130)
-                .padding(.bottom, -130)
-            
-            VStack(alignment: .leading) {
-                Text("Turtle Rock")
-                    .font(.title)
-                    .foregroundColor(.green)
-                
-                HStack {
-                    Text("大柳树森林公园 Park")
-                        .font(.subheadline)
-                    Spacer()
-                    Text("California")
-                        .font(.subheadline)
-                }
-            }
-            .padding()
-            
-//            Spacer()
-            
-            // 暂定
-            ZSButton()
-//            Spacer()
-//            ZSButton()
+//        VStack {
+//
+////            MapView()
+////                .edgesIgnoringSafeArea(.top)
+////                .frame(height: 300)
+//
+//            CircleImage()
+//                .offset(y: -130)
+//                .padding(.bottom, -130)
+//
+//            VStack(alignment: .leading) {
+//                Text("Turtle Rock")
+//                    .font(.title)
+//                    .foregroundColor(.green)
+//
+//                HStack {
+//                    Text("大柳树森林公园 Park")
+//                        .font(.subheadline)
+//                    Spacer()
+//                    Text("California")
+//                        .font(.subheadline)
+//                }
+//            }
+//            .padding()
+//
+////            Spacer()
+//
+//            // 暂定
+////            ZSButton()
+////            Spacer()
+////            ZSButton()
+//        }
+        
+        
+        
+        
+        NavigationView {
+            ZSList()
         }
+        
     }
 }
 

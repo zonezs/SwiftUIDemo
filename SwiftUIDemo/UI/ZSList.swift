@@ -10,13 +10,19 @@ import SwiftUI
 
 struct ZSList: View {
     var body: some View {
+        
         List {
-            Text("hello1")
-            Text("hello2")
-            Text("hello3")
-            Text("hello4")
-            Text("hello5")
-        }
+            HStack {
+                Image("turtlerock")
+                    .resizable()
+                    .clipShape(Circle())
+                    .padding(3)
+                    .scaledToFit()
+                    .frame(minWidth: nil, idealWidth: nil, maxWidth: 40, minHeight: nil, idealHeight: nil, maxHeight: 40, alignment: .center)
+                
+                Text("hello")
+            }
+        }.listStyle(GroupedListStyle())
     }
 }
 
