@@ -13,21 +13,6 @@ struct ZSActionSheet: View {
     @State var showSheet = false
     
     var body: some View {
-//        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                
-//        ActionSheet(title: Text("Title"),
-//                message: Text("Message"),
-//                buttons:
-//        [.default(Text("Default"), onTrigger: {
-//            print("Default")
-//            self.showSheet = false
-//        }),.destructive(Text("destructive"), onTrigger: {
-//            print("destructive")
-//            self.showSheet = false
-//        }),.cancel({
-//            print("Cancel")
-//            self.showSheet = false
-//        })])
         
         Button.init(action: {
             self.showSheet = true
