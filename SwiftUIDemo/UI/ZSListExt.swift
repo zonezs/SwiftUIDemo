@@ -10,8 +10,22 @@ import SwiftUI
 
 struct ZSListExt: View {
     var body: some View {
-        Text("ZSListExt!")
         
+        List {
+            Section {
+                Text("Jack")
+                    .padding(5)
+                    .background(Color.red)
+                    .foregroundColor(Color.white)
+            }
+            
+            Section {
+                Text("Licuy")
+                    .padding(5)
+                    .background(Color.red)
+                    .foregroundColor(Color.white)
+            }
+        }
         
     }
 }

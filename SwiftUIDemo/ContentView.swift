@@ -47,13 +47,18 @@ struct ContentView: View {
         
         
         
+        // NavigationView
+//        NavigationView {
+//            ZSList()
+//                .navigationBarTitle("SwiftUIDemo", displayMode: .inline)
+//        }
         
+        // ActionSheet
         NavigationView {
-            ZSList()
+            ZSActionSheet()
                 .navigationBarTitle("SwiftUIDemo", displayMode: .inline)
-//                .navigationBarTitle("SwiftUIDemo", displayMode: .automatic)
-//                .navigationBarTitle("SwiftUIDemo", displayMode: .large)
         }
+        
         
     }
 }
