@@ -14,18 +14,33 @@ struct ZSActionSheet: View {
     
     var body: some View {
         
-        Button.init(action: {
-            self.showSheet = true
-        }) {
-            Text("press actionSheet")
+        VStack {
+            
+            Button.init(action: {
+                self.showSheet = true
+            }) {
+                Text("press action")
+            }
+            .actionSheet(isPresented: $showSheet, content: {action})
+            
+//            Button.init(action: {
+//                self.showSheet = true
+//            }) {
+//                Text("press sheet")
+//            }
+//            .actionSheet(isPresented: $showSheet, content: {action})
         }
-        .actionSheet(isPresented: $showSheet, content: {action})
+        .padding()
+        .frame(width: 100, height: 100)
+        .position(x: 100, y: 100)
     }
     
     private var action: ActionSheet {
         let actionSheet = ActionSheet(title: Text("标题"),
                                       message: Text("说明"),
-                                      buttons: [.cancel()])
+                                      buttons: [.default(Text("确定")),
+                                                .destructive(Text("选择")),
+                                                .cancel()])
         return actionSheet
     }
 }
