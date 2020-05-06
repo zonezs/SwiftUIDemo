@@ -54,12 +54,16 @@ struct ContentView: View {
 //        }
         
         // ActionSheet
+//        NavigationView {
+//            ZSActionSheet()
+//                .navigationBarTitle("SwiftUIDemo", displayMode: .inline)
+//        }
+        
+        // Form
         NavigationView {
-            ZSActionSheet()
+            ZSForm(username: "", password: "")
                 .navigationBarTitle("SwiftUIDemo", displayMode: .inline)
         }
-        
-        
     }
 }
 
